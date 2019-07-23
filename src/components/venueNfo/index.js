@@ -25,7 +25,7 @@ const VunueNfo = () => {
                                         Event Date & Time
                                     </div>
                                     <div className="vn_desc">
-                                        7 August 2017 @10.00 pm
+                                        7 December 2019 @10.00 pm
                                     </div>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@ const VunueNfo = () => {
                                         Event Location
                                     </div>
                                     <div className="vn_desc">
-                                        345 Speer Street Oakland, CA 9835
+                                        Jawahar lal Nehru Stadium, Delhi - 60
                                     </div>
                                 </div>
                             </div>
