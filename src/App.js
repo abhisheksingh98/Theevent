@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './resources/styles.css';
 import { Element } from 'react-scroll';
 
-
 import Header from './components/header_footer/Header';
 import Featured from './components/featured';
 import VunueNfo from './components/venueNfo';
@@ -14,30 +13,33 @@ import Footer from './components/header_footer/Footer';
 class App extends Component {
   render() {
     return (
-      <div className="App" style={{ height:"1500px",background:'cornflowerblue'}}>
-        <Header/>
+      <div
+        className="App"
+        style={{ height: '1500px', background: 'cornflowerblue' }}
+      >
+        <Header />
 
         <Element name="featured">
-          <Featured/>
+          <Featured />
         </Element>
 
         <Element name="venuenfo">
-          <VunueNfo/>
+          <VunueNfo />
         </Element>
-        
+
         <Element name="highlights">
-          <Highlight/>
+          <Highlight />
         </Element>
-        
+
         <Element name="pricing">
-          <Pricing/>
+          <Pricing />
         </Element>
 
         <Element name="location">
-          <Location/>
+          <Location />
         </Element>
-        
-        <Footer/>
+
+        <Footer />
       </div>
     );
   }
