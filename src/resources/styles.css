@@ -77,12 +77,11 @@ footer .footer_copyright {
 
 .carrousel_wrapper {
     height:700px;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .carrousel_image {
-    
-    background-size: cover !important;
+    background-size: 100% 100% !important;
 }
 
 .artist_name {

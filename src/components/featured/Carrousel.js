@@ -9,7 +9,7 @@ import slide_three from '../../resources/images/slide_three.jpg';
 const Carrousel = () => {
 
     const settings = {
-        dots: false,
+        dots: true,
         infinite:true,
         autoplay: true,
         speed: 500

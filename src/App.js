@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './resources/styles.css';
 import { Element } from 'react-scroll';
 
-
 import Header from './components/header_footer/Header';
 import Featured from './components/featured';
 import VunueNfo from './components/venueNfo';
@@ -25,11 +24,11 @@ class App extends Component {
           <VunueNfo/>
         </Element>
         
-        <Element name="highlights">
+        <Element  name="highlights">
           <Highlight/>
         </Element>
         
-        <Element name="pricing">
+        <Element  name="pricing">
           <Pricing/>
         </Element>
 

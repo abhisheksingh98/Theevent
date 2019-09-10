@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Slide from 'react-reveal/Slide';
+import Slide from  'react-reveal/Slide';
 
 class TimeUntil extends Component {
 
@@ -39,46 +39,51 @@ class TimeUntil extends Component {
     render() {
         return (
             <Slide left delay={1000}>
-                <div className="countdown_wrapper">
+               
+                      <div className="countdown_wrapper">
                     <div className="countdown_top">
                         Event starts in
                 </div>
+                  
                     <div className="countdown_bottom">
-                        <div className="countdown_item">
-                            <div className="countdown_time">
-                                {this.state.days}
+                            <div className="countdown_item">
+                                <div className="countdown_time">
+                                    {this.state.days}
+                                </div>
+                                <div className="countdown_tag">
+                                    Days
+                        </div>
                             </div>
-                            <div className="countdown_tag">
-                                Days
+                            <div className="countdown_item">
+                                <div className="countdown_time">
+                                    {this.state.hours}
+                                </div>
+                                <div className="countdown_tag">
+                                    Hs
                         </div>
-                        </div>
-                        <div className="countdown_item">
-                            <div className="countdown_time">
-                                {this.state.hours}
                             </div>
-                            <div className="countdown_tag">
-                                Hs
+                            <div className="countdown_item">
+                                <div className="countdown_time">
+                                    {this.state.minutes}
+                                </div>
+                                <div className="countdown_tag">
+                                    Min
                         </div>
-                        </div>
-                        <div className="countdown_item">
-                            <div className="countdown_time">
-                                {this.state.minutes}
                             </div>
-                            <div className="countdown_tag">
-                                Min
+                            <div className="countdown_item">
+                                <div className="countdown_time">
+                                    {this.state.seconds}
+                                </div>
+                                <div className="countdown_tag">
+                                    Sec
                         </div>
-                        </div>
-                        <div className="countdown_item">
-                            <div className="countdown_time">
-                                {this.state.seconds}
                             </div>
-                            <div className="countdown_tag">
-                                Sec
                         </div>
-                        </div>
+                       
                     </div>
-                </div>
+                
 
+                              
             </Slide>
 
         );
